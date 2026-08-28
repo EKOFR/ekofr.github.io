@@ -1,10 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const bouton = document.querySelector('.menu-toggle');
-  const navigation = document.querySelector('.nav-links');
-  if (bouton && navigation) {
-    bouton.addEventListener('click', () => {
-      
-      navigation.classList.toggle('active');
+  const btn = document.querySelector('.menu-btn');
+  const nav = document.querySelector('.navlinks');
+  if (btn && nav) {
+    btn.addEventListener('click', () => {
+      nav.classList.toggle('active');
     });
   }
 });
